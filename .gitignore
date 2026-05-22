@@ -1,0 +1,33 @@
+# Downloaded financial reports
+*.pdf
+!手把手读财报/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.local
+
+# Output
+output/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
